@@ -10,3 +10,23 @@
 @import url('./reviews.css');
 @import url('./work-together.css');
 @import url('./footer.css');
+
+
+.container {
+  max-width: 360px;
+  margin: 0;
+  padding: 0, 20px;
+}
+
+@media  screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media  screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
