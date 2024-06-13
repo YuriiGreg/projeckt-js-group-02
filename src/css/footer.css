@@ -1,6 +1,5 @@
     .footer {
         text-align: center;
-        background-color: #f1f1f1;
         position: relative;
         width: 100%;
         bottom: 0;
@@ -16,7 +15,6 @@
         line-height: 32px;
         letter-spacing: 1.5px;
         text-align: left;
-        font-weight: bold;
     }
 
     .span {
@@ -62,8 +60,6 @@
     @media (max-width: 360px) {
         .footer {
             padding: 40px 20px 24px 20px;
-            border: 1px 0px 0px 0px;
-            border-top: 1px solid #E4E5E6
         }
 
         .footer-logo {
